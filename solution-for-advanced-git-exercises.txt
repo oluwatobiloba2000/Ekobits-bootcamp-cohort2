@@ -1,0 +1,17 @@
+Q. What is the difference between git reset and git revert. When would you use one over the other?
+
+Answer => git reset clears the whole commit history while git revert undos or change to the previous commit
+        I will use git reset if i want to clear all my commit historys
+        I will use git revert if i want to change to my previous commit
+
+Q. What is the difference between git merge and git rebase. When would you use one over the other?
+
+Answer => git merge will combine all commit and changes from a branch based off from master branch while git rebase will move the base of the feature branch to master's branch ending point
+
+Q. What is the difference between git stash pop and git stash apply. When would you use one over the other?
+
+Answer => git stash pop removes the latest stash after applying it while `git stash apply` applys the latest stash with without removing it from the stash list
+
+Q. What kinds of things can you do in interactive mode when rebasing?
+
+Answer => interactive mode in rebasing can be used in changing commits in many different ways
