@@ -1,0 +1,7 @@
+2 == "2"; returns true;
+2 === 2 returns true;
+10 % 3 returns 1;
+10 % 3 === 1 returns true;
+true && false returns true;
+false || true returns true;
+true || false returns true;
