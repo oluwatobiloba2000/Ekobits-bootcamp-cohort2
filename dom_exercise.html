@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+
+    <script>
+// Select the section with an id of container without using querySelector.
+document.getElementById('container');
+
+// Select the section with an id of container using querySelector.
+document.querySelector('#container');
+
+// Select all of the list items with a class of "second".
+document.getElementsByClassName('second');
+
+// Select a list item with a class of third, but only the list item inside of the ol tag.
+document.querySelector('ol>.third');
+
+// Give the section with an id of container the text "Hello!".
+//ANS - document.getElementById("container").textContent = "hello!";
+
+// Add the class main to the div with a class of footer.
+document.querySelector('.footer').classList.add('main');
+
+// Remove the class main on the div with a class of footer.
+document.querySelector('.footer').classList.remove('main');
+
+// Create a new li element.
+const li = document.createElement('li');
+
+// Give the li the text "four".
+li.textContent = 'four';
+
+// Append the li to the ul element.
+document.getElementsByTagName("ul")[0].appendChild(li)
+
+
+// Loop over all of the lis inside the ol tag and give them a background color of "green".
+const olLis = document.getElementsByTagName("ol")[0].getElementsByTagName('li')
+for (let index = 0; index < olLis.length; index++) {
+    const element = olLis[index];
+    element.style.backgroundColor = 'green';
+}
+// Remove the div with a class of footer.
+    </script>
+</body>
+</html>
