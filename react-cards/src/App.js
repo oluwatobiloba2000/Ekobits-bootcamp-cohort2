@@ -11,7 +11,7 @@ function App() {
     useEffect(()=>{
       setNetworkError({error: false})
       setLoading(true);
-      Axios.get(`http://jsonplaceholder.typicode.com/users`)
+      Axios.get(`https://jsonplaceholder.typicode.com/users`)
       .then(function (response) {
         // handle success
         setLoading(false);
