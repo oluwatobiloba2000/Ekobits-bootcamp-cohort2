@@ -1,0 +1,30 @@
+.color-cards-container{
+    display: flex;
+    padding: 13px;
+    height: 80vh;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.color-name{
+    margin: 0;
+    padding: 0px 8px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.color-card{
+    margin: 0px 10px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-code{
+    background-color: white;
+    height: 71px;
+    text-align: center;
+}
+
+.nav-add-color-btn{
+    height: 36px;
+}

@@ -1,0 +1,30 @@
+.dashboard-nav{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.dashboard-logo{
+    margin: 0;
+    width: 130px;
+    border-radius: 7px;
+    padding-left: 17px;
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.dashboard-logo>a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-add-color-btn{
+    background-color: #FF5722;
+    border: none;
+    width: 110px;
+    color: white;
+    cursor: pointer;
+}

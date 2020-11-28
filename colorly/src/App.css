@@ -1,0 +1,14 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  transition:  .5s ease;
+  width: 100%;
+  background-color: #D9D4D0;
+  margin: auto;
+  padding: 20px 0px 6px 0px;
+  overflow: hidden;
+  height: 96vh;
+
+}
